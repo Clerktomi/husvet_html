@@ -58,4 +58,14 @@ li{
 img{
     height: 300px;
     width: 300px;
+    border-radius: 10px;
+}
+
+#footer{
+    text-align: center;
+}
+
+#footer:hover{
+    color: white;
+    background-color: black;
 }
