@@ -69,3 +69,9 @@ img{
     color: white;
     background-color: black;
 }
+
+#content p{
+    color: azure;
+    border: 1px black solid;
+    background-color: rgb(151, 124, 65);
+}
