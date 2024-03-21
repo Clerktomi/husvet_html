@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: rgb(213, 202, 184);
 }
 
 #header {
@@ -37,15 +38,24 @@ a:hover {
 }
 
 #content {
-    margin-left: 25%; /*
+    margin-left: 25%; 
     width: 75%; 
     padding: 20px; 
 }
 
 #footer {
-    clear: both; /* A tartalom alá helyezéshez */
+    clear: both; 
 }
 
 menu{
     margin-top: 10px;
+}
+
+li{
+    margin-top: 100px;
+}
+
+img{
+    height: 300px;
+    width: 300px;
 }
