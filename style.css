@@ -1,9 +1,9 @@
-body{
+body {
     padding: 0;
     margin: 0;
 }
 
-#header{
+#header {
     text-align: center;
     padding: 0;
     margin: 0;
@@ -13,21 +13,39 @@ body{
     color: white;
 }
 
-#menu{
-    display: flex;
-    margin-top: 10px;
-    width: 20%;
-    height: 400px;
-    background-color: burlywood;
+#container {
+    overflow: hidden; /* Overflow kezelés a float használata miatt */
+}
+
+#menu {
+    float: left; /* A menü balra igazítva */
+    width: 25%; /* A menü szélessége */
+    background-color: rgb(47, 63, 110);
     border-radius: 10px;
-  
+    height: 500px;
+    font-size: 2em;
+    color: white;
 }
 
-#menu ul li{
-    margin-left: 0;
-    margin-top: 65px;
+a {
+    text-decoration: none;
+    color: white;
 }
 
-li{
-    margin: 0;
+a:hover {
+    color: black;
+}
+
+#content {
+    margin-left: 25%; /*
+    width: 75%; 
+    padding: 20px; 
+}
+
+#footer {
+    clear: both; /* A tartalom alá helyezéshez */
+}
+
+menu{
+    margin-top: 10px;
 }
