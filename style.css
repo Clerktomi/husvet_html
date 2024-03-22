@@ -57,7 +57,7 @@ li{
 
 img{
     height: 300px;
-    width: 300px;
+    width: 700px;
     border-radius: 10px;
 }
 
@@ -78,10 +78,4 @@ img{
 
 #content{
     text-align: center;
-}
-
-#kepek{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
