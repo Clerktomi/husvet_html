@@ -39,7 +39,7 @@ a {
     color: white;
 }
 
-a:hover {
+#adt:hover {
     color: black;
 }
 
@@ -224,4 +224,16 @@ button{
 button:hover{
     background-color: rgb(156, 113, 197);
     color: white;
+}
+
+#tengr #tng{
+    color: aqua;
+}
+
+#footer #mir{
+    color: aqua;
+}
+
+#mir:hover{
+    color: aqua;
 }
