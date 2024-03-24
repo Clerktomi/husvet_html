@@ -191,12 +191,14 @@ h2:hover{
 img {
     opacity: 1;
     border: 2px solid transparent;
-    transition: opacity 2s, border 0.3s;
+    transition: opacity 2s, border 0.3s, width 2s, margin-left 2s;
 }
 
 img:hover {
     opacity: 0.5;
     border-color: black;
+    width: 500px;
+    margin-left: 250px;
 }
 
 #ahus{
@@ -224,10 +226,3 @@ button:hover{
     color: white;
 }
 
-#tengr {
-    transition: text-align 2s;
-}
-
-#tengr:hover p {
-    text-align: center;
-}
