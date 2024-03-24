@@ -69,6 +69,7 @@ img{
 
 #footer{
     text-align: center;
+    transition: background-color 2s;
 }
 
 #footer:hover{
@@ -94,8 +95,6 @@ p{
 }
 
 #header:hover{
-    background-color: black;
-    color: red;
     margin-bottom: 1px;
 }
 
@@ -206,4 +205,29 @@ img:hover {
 
 #header #h3{
     margin-top: 0;
+}
+
+button{
+    background-color: blueviolet;
+    height: 30px;
+    width: 120px;
+}
+
+button{
+    border-radius: 10px;
+    transition: background-color 2s;
+    transition: color 2s;
+}
+
+button:hover{
+    background-color: rgb(156, 113, 197);
+    color: white;
+}
+
+#tengr {
+    transition: text-align 2s;
+}
+
+#tengr:hover p {
+    text-align: center;
 }
