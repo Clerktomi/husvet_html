@@ -5,7 +5,8 @@ body {
 }
 
 #header {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -200,4 +201,8 @@ img:hover {
 
 #ahus{
     color: aqua;
+}
+
+#header #h3{
+    margin-top: 0;
 }
